@@ -1,0 +1,54 @@
+import React from 'react';
+
+const workProcessSteps = [
+  {
+    title: "Seeing Patients",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Vivamus elementum.",
+    imgSrc: "https://placehold.co/100x100",
+  },
+  {
+    title: "Making a Diagnosis",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Vivamus elementum.",
+    imgSrc: "https://placehold.co/100x100",
+  },
+  {
+    title: "Developing a Treatment",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Vivamus elementum.",
+    imgSrc: "https://placehold.co/100x100",
+  },
+];
+
+const WorkProcess = () => {
+  return (
+    <div className="py-16 bg-teal-50 dark:bg-zinc-900">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h3 className="text-teal-500 uppercase tracking-wide font-semibold">Our Work Process</h3>
+        <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-zinc-900 dark:text-white sm:text-4xl">
+          Let's See How We Work
+        </h2>
+        <p className="mt-4 max-w-2xl text-xl text-zinc-500 dark:text-zinc-400 mx-auto">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum erat vitae leo pretium consequat. Pellentesque gravida vehicula vel elementum.
+        </p>
+      </div>
+      <div className="mt-10">
+        <div className="flex flex-col md:flex-row justify-center items-center space-y-10 md:space-y-0 md:space-x-10">
+          {workProcessSteps.map((step, index) => (
+            <div key={index} className="flex flex-col items-center">
+              <div className="bg-teal-100 p-6 rounded-full">
+                <img src={step.imgSrc} alt={step.title} className="w-16 h-16" />
+              </div>
+              <h4 className="mt-4 text-lg leading-6 font-medium text-zinc-900 dark:text-white">
+                {step.title}
+              </h4>
+              <p className="mt-2 text-base text-zinc-500 dark:text-zinc-400 text-center">
+                {step.description}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default WorkProcess;
