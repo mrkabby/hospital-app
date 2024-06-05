@@ -25,9 +25,9 @@ const Footer = () => {
                 Services
               </div>
             </Link>
-            <Link to={"/contactus"}>
+            <Link to={"/appointment"}>
               <div className="px-5 py-2 text-base text-gray-300 hover:text-white">
-                Contact
+                Book Appointment
               </div>
             </Link>
           </nav>

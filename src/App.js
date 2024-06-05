@@ -20,7 +20,7 @@ const router = createBrowserRouter ([
   {path:"/AllFacilities", element:<AllFacilities/> },
   {path:"/services", element:<Services /> },
   {path:"/aboutus", element:<AboutUs /> },
-  {path:"/contactus", element:<ContactUs /> },
+  {path:"/appointment", element:<ContactUs /> },
   {path:"/appointment-form", element:<AppointmentForm /> }
  
 

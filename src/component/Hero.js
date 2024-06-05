@@ -26,9 +26,9 @@ const HeroSection = () => {
               Our Skills doctor have tremendous experience with wide range of
               diseases to serve the needs of our patients.
             </p>
-            <Link to={"/contactus"}>
+            <Link to={"/appointment"}>
               <button className="px-6 py-3 bg-[#19B0A1] text-white font-medium rounded-full hover:bg-[#274D7C] transition duration-200">
-                Contact Us
+                Book Appointment
               </button>
             </Link>
           </div>
