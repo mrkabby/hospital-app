@@ -14,7 +14,7 @@ const NavBar = () => {
       <div className="h-24 ">
         <img src={logo} alt="Logo" className="h-full w-full" />
       </div>
-      <div className="flex md:hidden mx-3">
+      <div className="flex md:hidden mx-8">
         <button id="hamburger" onClick={toggleMenu}>
           <img
             className={!isMenuOpen ? 'block' : 'hidden'}
