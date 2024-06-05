@@ -25,10 +25,11 @@ const Services = () => {
       <h2 className="text-3xl font-bold text-center mb-8">Find Out More About Our Services</h2>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {services.map((service, index) => (
-          <div key={index} className={`p-6 rounded-lg text-center ${index === 0 ? 'bg-white shadow-lg' : 'bg-teal-100'}`}>
-            <img src={service.img} alt={service.title} className="mx-auto mb-4" />
-            <h3 className="text-xl font-semibold text-blue-700 mb-2">{service.title}</h3>
-            <p className="text-zinc-600 mb-4">{service.description}</p>
+          <div key={index} className={'p-6 rounded-lg text-center bg-teal-500'}>
+
+            <img src={service.img} alt={service.title} className="mx-auto mb-5 h-48 w-full object-cover" />
+            <h3 className="text-xl font-semibold text-white mb-2">{service.title}</h3>
+            <p className="text-white mb-4">{service.description}</p>
             {index === 1 && <a href="#" className="text-blue-600 font-semibold">Read More →</a>}
           </div>
         ))}

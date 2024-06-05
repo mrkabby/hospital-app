@@ -1,20 +1,23 @@
 import React from 'react';
+import PatientImage from "../component/assets/images/undraw_medical_care_movn.svg"
+import MedicalImage from "../component/assets/images/undraw_medicine_b-1-ol.svg"
+import TreatmentImage from "../component/assets/images/undraw_doctors_p6aq.svg"
 
 const workProcessSteps = [
   {
     title: "Seeing Patients",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Vivamus elementum.",
-    imgSrc: "https://placehold.co/100x100",
+    imgSrc: PatientImage,
   },
   {
     title: "Making a Diagnosis",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Vivamus elementum.",
-    imgSrc: "https://placehold.co/100x100",
+    imgSrc: MedicalImage,
   },
   {
     title: "Developing a Treatment",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Vivamus elementum.",
-    imgSrc: "https://placehold.co/100x100",
+    imgSrc: TreatmentImage,
   },
 ];
 

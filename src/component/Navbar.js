@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import logo from "../component/assets/images/3_angels_suit_page-0001-removebg-preview.png";
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,7 +10,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="flex flex-wrap items-center justify-between  bg-white">
+    <nav className="flex flex-wrap items-center justify-between  bg-[#274D7C]">
       <div className="h-24 w-40">
         <img src={logo} alt="Logo" className="h-full w-full object-contain" />
       </div>
@@ -31,12 +32,22 @@ const NavBar = () => {
           />
         </button>
       </div>
-      <div className={`${isMenuOpen ? 'block' : 'hidden'} w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 md:border-none`}>
-        <a href="/home" className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none">Home</a>
-        <a href="/services" className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none">Services</a>
-        <a href="/aboutus" className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none">About Us</a>
-        <a href="#gallery" className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none">Gallery</a>
-        <a href="/visitUs" className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none">Visit Us</a>
+      <div className={`${isMenuOpen ? 'block' : 'hidden'} w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 md:border-none text-white`}>
+       <Link to ={"/home"}>
+        <div className="block md:inline-block hover:text-teal-500 px-3 py-3 md:border-none">Home</div>
+        </Link>
+        <Link to={"/services"}>
+        <div className="block md:inline-block hover:text-teal-500 px-3 py-3 md:border-none">Services</div>
+        </Link>
+        <Link to={"/aboutus"}>
+        <div className="block md:inline-block hover:text-teal-500 px-3 py-3 md:border-none">About Us</div>
+        </Link>
+        <Link to={"/gallery"}>
+        <div className="block md:inline-block hover:text-teal-500 px-3 py-3 md:border-none">Gallery</div>
+        </Link>
+        <Link to={"/visitus"}>
+        <div className="block md:inline-block hover:text-teal-500 px-3 py-3 md:border-none">Visit Us</div>
+        </Link>
       </div>
 
       <div className="hidden md:flex md:w-auto px-2 py-2 md:rounded">

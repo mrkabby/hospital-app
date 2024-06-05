@@ -1,10 +1,15 @@
 import React, { useState } from "react";
+import DianaImage from "../component/assets/images/an-indian-young-female-doctor-isolated-on-green-ai-generated-photo.jpg"
+import TracyImage from "../component/assets/images/femaledr.jpg"
+import JefferyImage from "../component/assets/images/portrait-of-a-happy-young-doctor-in-his-clinic-royalty-free-image-1661432441.jpg"
+import AllenImage from "../component/assets/images/handsome-indian-doctor-generate-ai-photo.jpg"
+
 
 const doctors = [
   {
     name: "Dr. Diana Ayers",
     specialty: "Cardiologist",
-    imgSrc: "https://placehold.co/300x400",
+    imgSrc: DianaImage,
     socials: [
       { name: "facebook", iconSrc: "/icons/facebook.svg" },
       { name: "twitter", iconSrc: "/icons/twitter.svg" },
@@ -14,7 +19,7 @@ const doctors = [
   {
     name: "Dr. Tracy Mckay",
     specialty: "Cardiologist",
-    imgSrc: "https://placehold.co/300x400",
+    imgSrc: TracyImage,
     socials: [
       { name: "facebook", iconSrc: "/icons/facebook.svg" },
       { name: "twitter", iconSrc: "/icons/twitter.svg" },
@@ -24,7 +29,7 @@ const doctors = [
   {
     name: "Dr. Jeffrey Davis",
     specialty: "Cardiologist",
-    imgSrc: "https://placehold.co/300x400",
+    imgSrc: JefferyImage,
     socials: [
       { name: "facebook", iconSrc: "/icons/facebook.svg" },
       { name: "twitter", iconSrc: "/icons/twitter.svg" },
@@ -34,7 +39,7 @@ const doctors = [
   {
     name: "Dr. Allen Hartzler",
     specialty: "Cardiologist",
-    imgSrc: "https://placehold.co/300x400",
+    imgSrc: AllenImage,
     socials: [
       { name: "facebook", iconSrc: "/icons/facebook.svg" },
       { name: "twitter", iconSrc: "/icons/twitter.svg" },
@@ -85,6 +90,9 @@ const DoctorCard = ({ doctor }) => {
 
 const Doctors = () => {
   return (
+    <>
+    
+    
     <div className="p-6 bg-teal-50 dark:bg-zinc-900">
       <div className="text-center mb-8">
         <h2 className="text-teal-500 font-semibold uppercase">Our Doctors</h2>
@@ -116,6 +124,7 @@ const Doctors = () => {
         </button>
       </div>
     </div>
+    </>
   );
 };
 

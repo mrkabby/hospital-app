@@ -1,20 +1,32 @@
 import React from 'react';
 import NavBar from '../component/Navbar';
 import Footer from '../component/Footer';
+import EmergencyImage from "../component/assets/images/emergency department.jpeg"
+import OperatingImage from "../component/assets/images/operating-room-plastic-surgery.jpg"
+import IntensiveCareImage from "../component/assets/images/Critical-Care-Unit.jpg"
+import MaternityWardImage from "../component/assets/images/Maternity-Ward-Overview.jpg"
+import PediatricImage from "../component/assets/images/pediactric.jpg"
+import RadiologyImage from "../component/assets/images/radiology.jpeg"
+import LaboratoryImage from "../component/assets/images/Lab-Web-scaled.jpg"
+import PharmacyImage from "../component/assets/images/pharmacy.png"
+import OutPatientImage from "../component/assets/images/inpatient-vs-outpatient-whats-the-difference.jpg"
+import PhysicalTherapyImage from "../component/assets/images/physicaltherapy.jpg"
+import PrivateImage from "../component/assets/images/privatesecure.jpeg"
+import OnlineImage from "../component/assets/images/onlineservice.jpg"
 
 const facilities = [
-  { title: 'Online Sessions', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: 'https://placehold.co/50x50' },
-  { title: 'Instant Operation', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: 'https://placehold.co/50x50' },
-  { title: 'Private & Secure', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: 'https://placehold.co/50x50' },
-  { title: 'Emergency Care', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: 'https://placehold.co/50x50'},
-  { title: 'Online Sessions', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: 'https://placehold.co/50x50' },
-  { title: 'Instant Operation', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: 'https://placehold.co/50x50' },
-  { title: 'Private & Secure', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: 'https://placehold.co/50x50' },
-  { title: 'Emergency Care', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: 'https://placehold.co/50x50' },
-  { title: 'Online Sessions', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: 'https://placehold.co/50x50' },
-  { title: 'Instant Operation', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: 'https://placehold.co/50x50' },
-  { title: 'Private & Secure', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: 'https://placehold.co/50x50' },
-  { title: 'Emergency Care', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: 'https://placehold.co/50x50' },
+  { title: 'Emergency Department', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: EmergencyImage },
+  { title: 'Operating Rooms', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: OperatingImage },
+  { title: 'Intensive Care Unit', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: IntensiveCareImage },
+  { title: 'Maternity Ward', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: MaternityWardImage},
+  { title: 'Pediatric Ward', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: PediatricImage },
+  { title: 'Radiology Department', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: RadiologyImage },
+  { title: 'Laboratory Services', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: LaboratoryImage },
+  { title: 'Pharmacy', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: PharmacyImage },
+  { title: 'Outpatient Clinics', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: OutPatientImage },
+  { title: 'Physical Therapy Center', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: PhysicalTherapyImage },
+  { title: 'Private & Secure', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: PrivateImage },
+  { title: 'Online Services', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: OnlineImage },
    
 ];
 
