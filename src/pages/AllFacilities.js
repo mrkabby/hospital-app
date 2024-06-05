@@ -47,7 +47,7 @@ const AllFacilities = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {facilities.map((facility, index) => (
                 <div key={index} className="bg-teal-500 text-white p-6 rounded-lg shadow-md">
-                  <img src={facility.img} alt={facility.title} className="mb-4" />
+                  <img src={facility.img} alt={facility.title} className="mx-auto mb-5 h-48 w-full object-cover" />
                   <h3 className="text-xl font-semibold">{facility.title}</h3>
                   <p className="mt-2">{facility.description}</p>
                 </div>

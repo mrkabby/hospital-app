@@ -20,10 +20,16 @@ const SplashScreen = () => {
   }, [showLogo]);
 
   return (
-    <div className="h-screen flex items-center justify-center bg-white ">
+    <div className="h-screen flex items-center justify-center bg-white">
       {showLogo && (
         <div className="text-center text-black flex flex-col items-center">
-          <img src={logo} alt="Logo" className="h-72 w-72 mb-1" />
+          <img
+            src={logo}
+            alt="Logo"
+            className={`h-72 w-72 mb-1 transform transition-transform duration-1000 ${
+              showLogo ? "scale-100" : "scale-50"
+            }`}
+          />
           <p>Explore the world with the Angles</p>
         </div>
       )}

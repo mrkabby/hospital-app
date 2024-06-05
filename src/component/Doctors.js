@@ -3,6 +3,9 @@ import DianaImage from "../component/assets/images/an-indian-young-female-doctor
 import TracyImage from "../component/assets/images/femaledr.jpg"
 import JefferyImage from "../component/assets/images/portrait-of-a-happy-young-doctor-in-his-clinic-royalty-free-image-1661432441.jpg"
 import AllenImage from "../component/assets/images/handsome-indian-doctor-generate-ai-photo.jpg"
+import facebookIcon from "../component/assets/images/icons8-facebook.svg"; // Replace with the actual path to your Facebook icon
+import twitterIcon from "../component/assets/images/icons8-twitterx.svg"; // Replace with the actual path to your Twitter icon
+import whatsappIcon from "../component/assets/images/icons8-whatsapp.svg";
 
 
 const doctors = [
@@ -11,9 +14,9 @@ const doctors = [
     specialty: "Cardiologist",
     imgSrc: DianaImage,
     socials: [
-      { name: "facebook", iconSrc: "/icons/facebook.svg" },
-      { name: "twitter", iconSrc: "/icons/twitter.svg" },
-      { name: "whatsapp", iconSrc: "/icons/whatsapp.svg" },
+      { name: "facebook", iconSrc:facebookIcon },
+      { name: "twitter", iconSrc: twitterIcon },
+      { name: "whatsapp", iconSrc: whatsappIcon },
     ],
   },
   {
@@ -21,9 +24,9 @@ const doctors = [
     specialty: "Cardiologist",
     imgSrc: TracyImage,
     socials: [
-      { name: "facebook", iconSrc: "/icons/facebook.svg" },
-      { name: "twitter", iconSrc: "/icons/twitter.svg" },
-      { name: "whatsapp", iconSrc: "/icons/whatsapp.svg" },
+      { name: "facebook", iconSrc:facebookIcon },
+      { name: "twitter", iconSrc: twitterIcon },
+      { name: "whatsapp", iconSrc: whatsappIcon }
     ],
   },
   {
@@ -31,9 +34,9 @@ const doctors = [
     specialty: "Cardiologist",
     imgSrc: JefferyImage,
     socials: [
-      { name: "facebook", iconSrc: "/icons/facebook.svg" },
-      { name: "twitter", iconSrc: "/icons/twitter.svg" },
-      { name: "whatsapp", iconSrc: "/icons/whatsapp.svg" },
+      { name: "facebook", iconSrc:facebookIcon },
+      { name: "twitter", iconSrc: twitterIcon },
+      { name: "whatsapp", iconSrc: whatsappIcon }
     ],
   },
   {
@@ -41,9 +44,9 @@ const doctors = [
     specialty: "Cardiologist",
     imgSrc: AllenImage,
     socials: [
-      { name: "facebook", iconSrc: "/icons/facebook.svg" },
-      { name: "twitter", iconSrc: "/icons/twitter.svg" },
-      { name: "whatsapp", iconSrc: "/icons/whatsapp.svg" },
+      { name: "facebook", iconSrc:facebookIcon },
+      { name: "twitter", iconSrc: twitterIcon },
+      { name: "whatsapp", iconSrc: whatsappIcon }
     ],
   },
 ];

@@ -21,7 +21,7 @@ const Services = () => {
   return (
     <>
     <NavBar />
-    <div className="max-w-7xl mx-auto px-4 py-12 bg-teal-50">
+    <div className="max-w-7xl mx-auto px-4 py-12 ">
       <h2 className="text-3xl font-bold text-center mb-8">Find Out More About Our Services</h2>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {services.map((service, index) => (
@@ -30,7 +30,7 @@ const Services = () => {
             <img src={service.img} alt={service.title} className="mx-auto mb-5 h-48 w-full object-cover" />
             <h3 className="text-xl font-semibold text-white mb-2">{service.title}</h3>
             <p className="text-white mb-4">{service.description}</p>
-            {index === 1 && <a href="#" className="text-blue-600 font-semibold">Read More →</a>}
+            
           </div>
         ))}
       </div>
