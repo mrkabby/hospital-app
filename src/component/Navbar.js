@@ -11,7 +11,7 @@ const NavBar = () => {
 
   return (
     <nav className="flex flex-wrap items-center justify-between  bg-[#274D7C]">
-      <div className="h-24 ">
+      <div className="h-24 w-24">
         <img src={logo} alt="Logo" className="h-full w-full" />
       </div>
       <div className="flex md:hidden mx-8">
@@ -32,7 +32,7 @@ const NavBar = () => {
           />
         </button>
       </div>
-      <div className={`${isMenuOpen ? 'block' : 'hidden'} w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 mx-3 md:border-none text-white`}>
+      <div className={`${isMenuOpen ? 'block' : 'hidden'} w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 mx-8 md:border-none text-white`}>
        <Link to ={"/home"}>
         <div className="block md:inline-block hover:text-teal-500 px-3 py-3 md:border-none">Home</div>
         </Link>
