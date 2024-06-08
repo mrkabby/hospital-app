@@ -14,18 +14,19 @@ const Footer = () => {
         <div>
           <h2 className="text-2xl font-bold mb-4">3 Angels Medical Center</h2>
           <p className="mb-4">
-            It was popularised in the 1960s with the release of Letraset sheets
-            containing Lorem Ipsum passages.
+            A  Dedeicated Medical Facility Operating 24/7.
+            <br></br>
+            at "3-AMC" Your Health our Priority.
           </p>
           <div className="flex items-center mb-2">
             <img src={emailIcon} alt="email" className="mr-2 w-6 h-6" />
-            <a href="mailto:info@websitename.com" className="hover:underline">
-              info@websitename.com
+            <a href="enquiries@3angelsmedicalcenter.com" className="hover:underline">
+              enquiries@3angelsmedicalcenter.com
             </a>
           </div>
           <div className="flex items-center">
             <img src={locationIcon} alt="location" className="mr-2 w-6 h-6" />
-            <p>1378 Whitetail Frisco, 75034</p>
+            <p>Community 23 Solomon City, Tema</p>
           </div>
         </div>
         <div>
@@ -82,7 +83,7 @@ const Footer = () => {
                 d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
               />
             </svg>
-            Call : +012 345 6789
+            Call:+233535196841 
           </button>
         </div>
       </div>

@@ -9,12 +9,7 @@ const AboutSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
             <div className="max-w-lg">
               <p className="mt-4 text-gray-600 text-lg">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                Etiam eu turpis molestieLorem ipsum dolor sit amet consectetur adipiscing elit.
-                Etiam eu turpis molestieLorem ipsum dolor sit amet consectetur adipiscing elit.
-                Etiam eu turpis molestieLorem ipsum dolor sit amet consectetur adipiscing elit.
-                Etiam eu turpis molestieLorem ipsum dolor sit amet consectetur adipiscing elit.
-                Etiam eu turpis molestie
+              At 3 Angels Medical Center, we are committed to providing exceptional healthcare services to our community. With a team of skilled healthcare professionals and state-of-the-art facilities, we deliver comprehensive medical care tailored to meet the unique needs of each patient. Our mission is to promote health, prevent illness, and improve the quality of life for all those we serve. Whether you're visiting us for routine check-ups, specialized treatments, or emergency care, you can trust us to prioritize your well-being and deliver compassionate, patient-centered care every step of the way.
               </p>
             </div>
             <div className="mt-12 md:mt-0">

@@ -6,10 +6,10 @@ import LaboratoryImage from "../component/assets/images/Lab-Web-scaled.jpg"
 import RadiologyImage from "../component/assets/images/radiology.jpeg"
 
 const facilities = [
-  { title: 'Pharmacy', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: PharmacyImage },
-  { title: 'Operating Rooms', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: OperatingImage },
-  { title: 'Laboratory Services', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: LaboratoryImage },
-  { title: 'Radiology Department', description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eu turpis molestie.', img: RadiologyImage },
+  { title: 'Pharmacy', description: 'We have a fully stocked pharmacy staffed with knowledgeable pharmacists ready to fulfill your medication needs and provide expert guidance on usage and potential interactions.', img: PharmacyImage },
+  { title: 'Operating Rooms', description: 'We have state-of-the-art operating rooms equipped with advanced surgical technology and staffed by experienced surgical teams, ensuring optimal conditions for safe and successful procedures.', img: OperatingImage },
+  { title: 'Laboratory Services', description: 'We have a modern laboratory facility equipped with cutting-edge technology and staffed by skilled technicians, providing accurate and timely diagnostic testing for a wide range of medical conditions.', img: LaboratoryImage },
+  { title: 'Radiology Department', description: 'We have a comprehensive radiology department featuring advanced imaging equipment and experienced radiologists, offering a full range of diagnostic services including X-rays, MRI, CT scans, and ultrasound examinations for precise and detailed evaluation of health conditions', img: RadiologyImage },
 ];
 
 const Facilities = () => {
@@ -20,7 +20,7 @@ const Facilities = () => {
         <div className="mb-8 md:mr-8 md:mb-0 md:w-1/2">
           <h2 className="text-teal-500 font-semibold uppercase tracking-wide lg:mt-44 ">Our Facilities</h2>
           <h1 className="text-4xl font-bold text-zinc-900 dark:text-zinc-100 mt-2">Facilities That We Provide</h1>
-          <p className="mt-4 text-zinc-600 dark:text-zinc-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim metus nec fringilla accumsan.</p>
+          <p className="mt-4 text-zinc-600 dark:text-zinc-300">We pride ourselves on our comprehensive array of modern facilities designed to meet all your healthcare needs.</p>
           <button className="mt-6 inline-flex items-center px-6 py-3 border border-[#19B0A1] text-teal-500 font-semibold rounded-md hover:bg-[#274D7C] hover:text-white transition" onClick={() => navigate("/allfacilities")}>
             View All
             <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

@@ -1,20 +1,25 @@
 import React from 'react';
 import NavBar from '../component/Navbar';
 import Footer from '../component/Footer';
-import CardiologyImage from "../component/assets/images/Cardiology-scaled.jpg"
-import HypotherapyImage from "../component/assets/images/hypotherapy.jpg"
-import PulmonaryImage from "../component/assets/images/GettyImages-953787016.jpg"
-import RadiologyImage from "../component/assets/images/skeleton-bg.jpg"
-import NeurologyImage from "../component/assets/images/58b0424e-411c-4243-9228-4a0725bbab96.jpg"
-import UrologyImage from "../component/assets/images/istockphoto-1339092350-612x612.jpg"
+import GeneralMedImage from "../component/assets/images/General Medicine.jpeg"
+import SurgicalImage from "../component/assets/images/surgical-procedure-made-by-doctor-special-equipment_23-2148962517.jpg"
+import DiagnosticImage from "../component/assets/images/diagnostic.jpeg"
+import MaternalImage from "../component/assets/images/FamilyPlanningChoicesindividually_91.jpg"
+
+import LaboratoryImage from "../component/assets/images/Lab-Web-scaled.jpg"
+import ChildImage from "../component/assets/images/Child Health Service.jpeg"
+import AlliedImage from "../component/assets/images/modern-dental-1024x681.jpg"
+import PharmacyImage from "../component/assets/images/Altru-Pharmacy-Services.jpg"
 
 const services = [
-  { title: 'Cardiology', description: 'Lorem ipsum dolor sit amet, Consectetur Adipiscing elit. Nullam Placerat Pellentesque Aliquam.', img: CardiologyImage },
-  { title: 'Neurology', description: 'Lorem ipsum dolor sit amet, Consectetur Adipiscing elit. Nullam Placerat Pellentesque Aliquam.', img: NeurologyImage },
-  { title: 'Urology', description: 'Lorem ipsum dolor sit amet, Consectetur Adipiscing elit. Nullam Placerat Pellentesque Aliquam.', img: UrologyImage },
-  { title: 'Pulmonary', description: 'Lorem ipsum dolor sit amet, Consectetur Adipiscing elit. Nullam Placerat Pellentesque Aliquam.', img: PulmonaryImage },
-  { title: 'Radiology', description: 'Lorem ipsum dolor sit amet, Consectetur Adipiscing elit. Nullam Placerat Pellentesque Aliquam.', img: RadiologyImage },
-  { title: 'Hypotherapy', description: 'Lorem ipsum dolor sit amet, Consectetur Adipiscing elit. Nullam Placerat Pellentesque Aliquam.', img: HypotherapyImage }
+  { title: 'General Medicine', description: 'We offer comprehensive general medicine services to ensure your health and well-being. Our internists are skilled in diagnosing and treating a wide range of conditions, providing preventive care, and managing chronic illnesses', img: GeneralMedImage },
+  { title: 'Surgical OPD', description: 'We offer specialized surgical outpatient services designed for patients who require surgical consultations, minor procedures, and post-operative care without the need for hospital admission', img: SurgicalImage },
+  { title: 'Diagnostic Services', description :'We offer a wide range of diagnostic services to accurately identify and assess medical conditions, providing you with the essential information needed for effective treatment and care.', img: DiagnosticImage },
+  { title: 'Maternal Health Services', description: 'We offer comprehensive maternal health services to ensure the well-being of both mother and baby throughout pregnancy, childbirth, and the postpartum period.', img: MaternalImage },
+  { title: 'Laboratory Service', description: 'We offer a full range of laboratory services to provide accurate and timely diagnostic information essential for effective medical care.', img: LaboratoryImage },
+  { title: 'Child Health Service', description: 'We offer comprehensive child health services to support the growth and development of your child from infancy through adolescence..', img: ChildImage  },
+  { title: 'Allied Services', description: 'We offer a range of allied health services to complement medical care and enhance overall health and well-being.', img: AlliedImage  },
+  { title: 'Pharmacy', description: 'We offer comprehensive pharmacy services to ensure you receive the medications and guidance needed for optimal health outcomes.', img: PharmacyImage}
 ];
 
 const Services = () => {
