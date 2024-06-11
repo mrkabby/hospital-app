@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import logo from "../component/assets/images/3_angels_suit_page-0001-removebg-preview.png";
+import logo from "../assets/images/3_angels_suit_page-0001-removebg-preview.png";
 
 const SplashScreen = () => {
   const [showLogo, setShowLogo] = useState(false);

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import DoctorImage from "../component/assets/images/pngtree-young-afro-professional-doctor-png-image_10148632.png"
+import DoctorImage from "../assets/images/pngtree-young-afro-professional-doctor-png-image_10148632.png"
 
 const AppointmentSection = () => {
   return (

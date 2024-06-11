@@ -1,9 +1,9 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import PharmacyImage from "../component/assets/images/pharmacy.png";
-import OperatingImage from "../component/assets/images/operating-room-plastic-surgery.jpg"
-import LaboratoryImage from "../component/assets/images/Lab-Web-scaled.jpg"
-import RadiologyImage from "../component/assets/images/radiology.jpeg"
+import PharmacyImage from "../assets/images/pharmacy.png";
+import OperatingImage from "../assets/images/operating-room-plastic-surgery.jpg"
+import LaboratoryImage from "../assets/images/Lab-Web-scaled.jpg"
+import RadiologyImage from "../assets/images/radiology.jpeg"
 
 const facilities = [
   { title: 'Pharmacy', description: 'We have a fully stocked pharmacy staffed with knowledgeable pharmacists ready to fulfill your medication needs and provide expert guidance on usage and potential interactions.', img: PharmacyImage },

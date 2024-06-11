@@ -1,13 +1,14 @@
 import React from "react";
-import emailIcon from "../component/assets/images/icons8-email-48.png"; // Replace with the actual path to your email icon
-import locationIcon from "../component/assets/images/icons8-location-50.png"; // Replace with the actual path to your location icon
+import emailIcon from "../assets/images/icons8-email-48.png"; // Replace with the actual path to your email icon
+import locationIcon from "../assets/images/icons8-location-50.png"; // Replace with the actual path to your location icon
 
-import facebookIcon from "../component/assets/images/icons8-facebook.svg"; // Replace with the actual path to your Facebook icon
-import twitterIcon from "../component/assets/images/icons8-twitterx.svg"; // Replace with the actual path to your Twitter icon
-import instagramIcon from "../component/assets/images/icons8-instagram.svg"; // Replace with the actual path to your Instagram icon
-import { Link } from "react-router-dom";
+import facebookIcon from "../assets/images/icons8-facebook.svg"; // Replace with the actual path to your Facebook icon
+import twitterIcon from "../assets/images/icons8-twitterx.svg"; // Replace with the actual path to your Twitter icon
+import instagramIcon from "../assets/images/icons8-instagram.svg"; // Replace with the actual path to your Instagram icon
+import { Link, useNavigate } from "react-router-dom";
 
 const Footer = () => {
+  const navigate = useNavigate();
   return (
     <div className="bg-[#274D7C] text-white py-8 px-4">
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
@@ -16,11 +17,11 @@ const Footer = () => {
           <p className="mb-4">
             A  Dedeicated Medical Facility Operating 24/7.
             <br></br>
-            at "3-AMC" Your Health our Priority.
+            at 3 Angels medical Center Your Health our Priority.
           </p>
           <div className="flex items-center mb-2">
             <img src={emailIcon} alt="email" className="mr-2 w-6 h-6" />
-            <a href="enquiries@3angelsmedicalcenter.com" className="hover:underline">
+            <a href="mailto:enquiries@3angelsmedicalcenter.com" className="hover:underline">
               enquiries@3angelsmedicalcenter.com
             </a>
           </div>
@@ -29,8 +30,8 @@ const Footer = () => {
             <p>Community 23 Solomon City, Tema</p>
           </div>
         </div>
-        <div>
-          <h2 className="text-xl font-bold mb-4 underline">Quick Links</h2>
+        <div className="ml-16">
+          <h2 className="text-xl font-bold mb-4  underline">Quick Links</h2>
           <ul>
             <Link to={"/aboutus"}>
               <li className="mb-2 hover:underline">About Us</li>
@@ -46,29 +47,13 @@ const Footer = () => {
             </Link>
           </ul>
         </div>
-        <div>
-          <h2 className="text-xl font-bold mb-4 underline">Our Services</h2>
-          <ul>
-            <li className="mb-2 hover:underline">
-              <a href="#">Terms of Use</a>
-            </li>
-            <li className="mb-2 hover:underline">
-              <a href="#">Privacy Policy</a>
-            </li>
-            <li className="mb-2 hover:underline">
-              <a href="#">Contact Support</a>
-            </li>
-            <li className="hover:underline">
-              <a href="#">Careers</a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h2 className="text-xl font-bold mb-4 underline">Book An Appointment</h2>
-          <p className="mb-4">
+        
+        <div >
+          <h2 className="text-xl font-bold mb-4 underline cursor-pointer lg:text-right"onClick={()=>navigate("/appointment-form")}>Book An Appointment</h2>
+          <p className="mb-4 lg:text-right ">
             The doctorate staff members are well-trained professionals.
           </p>
-          <button className="bg-teal-500 text-white py-2 px-4 rounded flex items-center">
+          <button className="bg-teal-500 text-white py-2 px-4 rounded flex items-center lg:ml-24">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -89,9 +74,8 @@ const Footer = () => {
       </div>
       <div className="border-t border-zinc-700 mt-8 pt-4 text-center">
         <p className="mb-4">
-          All Rights Reserved @Forty7 Digital Agency 2024 |
-          <a href="#" className="hover:underline"> Terms & Conditions</a> |
-          <a href="#" className="hover:underline"> Privacy Policy</a>
+          All Rights Reserved | 3 Angels Medical Center 2024 |
+          
         </p>
         <div className="flex justify-center space-x-4">
           <a href="#">

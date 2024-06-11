@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import DianaImage from "../component/assets/images/an-indian-young-female-doctor-isolated-on-green-ai-generated-photo.jpg"
-import TracyImage from "../component/assets/images/femaledr.jpg"
-import JefferyImage from "../component/assets/images/portrait-of-a-happy-young-doctor-in-his-clinic-royalty-free-image-1661432441.jpg"
-import AllenImage from "../component/assets/images/handsome-indian-doctor-generate-ai-photo.jpg"
-import facebookIcon from "../component/assets/images/icons8-facebook.svg"; // Replace with the actual path to your Facebook icon
-import twitterIcon from "../component/assets/images/icons8-twitterx.svg"; // Replace with the actual path to your Twitter icon
-import whatsappIcon from "../component/assets/images/icons8-whatsapp.svg";
+import DianaImage from "../assets/images/an-indian-young-female-doctor-isolated-on-green-ai-generated-photo.jpg"
+import TracyImage from "../assets/images/femaledr.jpg"
+import JefferyImage from "../assets/images/portrait-of-a-happy-young-doctor-in-his-clinic-royalty-free-image-1661432441.jpg"
+import AllenImage from "../assets/images/handsome-indian-doctor-generate-ai-photo.jpg"
+import facebookIcon from "../assets/images/icons8-facebook.svg"; 
+import twitterIcon from "../assets/images/icons8-twitterx.svg"; 
+import whatsappIcon from "../assets/images/icons8-whatsapp.svg";
 
 
 const doctors = [

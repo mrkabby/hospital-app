@@ -1,18 +1,18 @@
 import React from 'react';
 import NavBar from '../component/Navbar';
 import Footer from '../component/Footer';
-import EmergencyImage from "../component/assets/images/emergency department.jpeg"
-import OperatingImage from "../component/assets/images/operating-room-plastic-surgery.jpg"
-import IntensiveCareImage from "../component/assets/images/Critical-Care-Unit.jpg"
-import MaternityWardImage from "../component/assets/images/Maternity-Ward-Overview.jpg"
-import PediatricImage from "../component/assets/images/pediactric.jpg"
-import RadiologyImage from "../component/assets/images/radiology.jpeg"
-import LaboratoryImage from "../component/assets/images/Lab-Web-scaled.jpg"
-import PharmacyImage from "../component/assets/images/pharmacy.png"
-import OutPatientImage from "../component/assets/images/inpatient-vs-outpatient-whats-the-difference.jpg"
-import PhysicalTherapyImage from "../component/assets/images/physicaltherapy.jpg"
-import PrivateImage from "../component/assets/images/privatesecure.jpeg"
-import OnlineImage from "../component/assets/images/onlineservice.jpg"
+import EmergencyImage from "../assets/images/emergency department.jpeg"
+import OperatingImage from "../assets/images/operating-room-plastic-surgery.jpg"
+import IntensiveCareImage from "../assets/images/Critical-Care-Unit.jpg"
+import MaternityWardImage from "../assets/images/Maternity-Ward-Overview.jpg"
+import PediatricImage from "../assets/images/pediactric.jpg"
+import RadiologyImage from "../assets/images/radiology.jpeg"
+import LaboratoryImage from "../assets/images/Lab-Web-scaled.jpg"
+import PharmacyImage from "../assets/images/pharmacy.png"
+import OutPatientImage from "../assets/images/inpatient-vs-outpatient-whats-the-difference.jpg"
+import PhysicalTherapyImage from "../assets/images/physicaltherapy.jpg"
+import PrivateImage from "../assets/images/privatesecure.jpeg"
+import OnlineImage from "../assets/images/onlineservice.jpg"
 
 const facilities = [
   { title: 'Emergency Department', description: 'We have a fully equipped emergency department staffed with highly trained healthcare professionals available 24/7 to provide immediate medical care for any urgent or life-threatening conditions.', img: EmergencyImage },

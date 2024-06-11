@@ -3,6 +3,7 @@ import NavBar from "./Navbar";
 import Footer from "./Footer";
 import Facilities from "../pages/Facilities";
 import { Link } from "react-router-dom";
+import BackgroundImage from "../assets/images/WhatsApp Image 2024-06-06 at 11.27.40_50780c7b.jpg"
 
 const HeroSection = () => {
   return (
@@ -12,7 +13,7 @@ const HeroSection = () => {
       <div className="relative w-full h-96" id="home">
         <div className="absolute inset-0 opacity-50">
           <img
-            src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D "
+            src={BackgroundImage}
             alt="Background Img"
             className="object-cover object-center w-full h-full"
           />

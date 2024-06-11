@@ -1,15 +1,15 @@
 import React from 'react';
 import NavBar from '../component/Navbar';
 import Footer from '../component/Footer';
-import GeneralMedImage from "../component/assets/images/General Medicine.jpeg"
-import SurgicalImage from "../component/assets/images/surgical-procedure-made-by-doctor-special-equipment_23-2148962517.jpg"
-import DiagnosticImage from "../component/assets/images/diagnostic.jpeg"
-import MaternalImage from "../component/assets/images/FamilyPlanningChoicesindividually_91.jpg"
+import GeneralMedImage from "../assets/images/General Medicine.jpeg"
+import SurgicalImage from "../assets/images/surgical-procedure-made-by-doctor-special-equipment_23-2148962517.jpg"
+import DiagnosticImage from "../assets/images/diagnostic.jpeg"
+import MaternalImage from "../assets/images/FamilyPlanningChoicesindividually_91.jpg"
 
-import LaboratoryImage from "../component/assets/images/Lab-Web-scaled.jpg"
-import ChildImage from "../component/assets/images/Child Health Service.jpeg"
-import AlliedImage from "../component/assets/images/modern-dental-1024x681.jpg"
-import PharmacyImage from "../component/assets/images/Altru-Pharmacy-Services.jpg"
+import LaboratoryImage from "../assets/images/Lab-Web-scaled.jpg"
+import ChildImage from "../assets/images/Child Health Service.jpeg"
+import AlliedImage from "../assets/images/modern-dental-1024x681.jpg"
+import PharmacyImage from "../assets/images/Altru-Pharmacy-Services.jpg"
 
 const services = [
   { title: 'General Medicine', description: 'We offer comprehensive general medicine services to ensure your health and well-being. Our internists are skilled in diagnosing and treating a wide range of conditions, providing preventive care, and managing chronic illnesses', img: GeneralMedImage },

@@ -1,7 +1,7 @@
 import React from "react";
-import PatientImage from "../component/assets/images/undraw_medical_care_movn.svg";
-import MedicalImage from "../component/assets/images/undraw_medicine_b-1-ol.svg";
-import TreatmentImage from "../component/assets/images/undraw_doctors_p6aq.svg";
+import PatientImage from "../assets/images/undraw_medical_care_movn.svg";
+import MedicalImage from "../assets/images/undraw_medicine_b-1-ol.svg";
+import TreatmentImage from "../assets/images/undraw_doctors_p6aq.svg";
 
 const workProcessSteps = [
   {
