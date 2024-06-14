@@ -34,17 +34,17 @@ const VisitUs = () => {
                 </div>
                 <div className="px-6 py-4">
                   <h3 className="text-lg font-medium text-gray-900">Our Address</h3>
-                  <p className="mt-1 text-gray-600">Sale galli, 60 foot road, Latur</p>
+                  <p className="mt-1 text-gray-600">Community 23, Solomon City, Tema</p>
                 </div>
                 <div className="border-t border-gray-200 px-6 py-4">
                   <h3 className="text-lg font-medium text-gray-900">Hours</h3>
-                  <p className="mt-1 text-gray-600">Monday - Sunday: 8am - 9pm</p>
+                  <p className="mt-1 text-gray-600"> 24 Hours Service</p>
                 </div>
               </div>
             </div>
             <div className="rounded-lg overflow-hidden order-none sm:order-first">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3785.7850672491236!2d76.58802159999999!3d18.402630699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcf83ca88e84341%3A0x841e547bf3ad066d!2zQmFwcGEgZmxvdXIgbWlsbCB8IOCkrOCkquCljeCkquCkviDgpKrgpYDgpKAg4KSX4KS_4KSw4KSj4KWALCDgpK7gpL_gpLDgpJrgpYAg4KSV4KS-4KSC4KSh4KSqIOCkhuCko-CkvyDgpLbgpYfgpLXgpL7gpK_gpL4!5e0!3m2!1sen!2sin!4v1713433597892!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d615.0401716856645!2d-0.07320915037516228!3d5.68378699774946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNcKwNDEnMDAuNyJOIDDCsDA0JzIyLjciVw!5e1!3m2!1sen!2sgh!4v1718399735022!5m2!1sen!2sgh"
                 className="w-full"
                 width="600"
                 height="450"

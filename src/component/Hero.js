@@ -11,19 +11,19 @@ const HeroSection = () => {
       <NavBar />
 
       <div className="relative w-full h-96" id="home">
-        <div className="absolute inset-0 opacity-50">
           <img
             src={BackgroundImage}
             alt="Background Img"
             className="object-cover object-center w-full h-full"
           />
+        <div className="absolute inset-0 bg-black bg-opacity-50">
         </div>
         <div className="absolute inset-9 flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-4 md:mb-0">
-            <h1 className="text-grey-700 font-medium text-4xl md:text-5xl leading-tight mb-2">
+            <h1 className="text-white font-medium text-4xl md:text-5xl leading-tight mb-2">
               Bringing Loving Care to Health Care.
             </h1>
-            <p className="font-regular text-xl mb-8 mt-4">
+            <p className="font-regular text-xl mb-8 mt-4 text-white">
               Our Skills doctor have tremendous experience with wide range of
               diseases to serve the needs of our patients.
             </p>
