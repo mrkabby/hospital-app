@@ -10,7 +10,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="flex flex-wrap items-center justify-between  bg-[#274D7C]">
+    <nav className="flex flex-wrap items-center justify-between  bg-[#274D7C] px-10">
       <div className="h-24 w-24">
         <img src={logo} alt="Logo" className="h-full w-full" />
       </div>

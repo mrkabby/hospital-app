@@ -10,6 +10,7 @@ import AboutUs from './pages/AboutUs'
 import SplashScreen from './component/SplashScreen'
 import ContactUs from './pages/ContactUs'
 import AppointmentForm from './component/AappointmentForm'
+import Gallery from './pages/Gallery'
 
 
 const router = createBrowserRouter ([
@@ -19,6 +20,7 @@ const router = createBrowserRouter ([
   {path:"/Facilities", element:<Facilities/> },
   {path:"/AllFacilities", element:<AllFacilities/> },
   {path:"/services", element:<Services /> },
+  {path:"/gallery", element:<Gallery /> },
   {path:"/aboutus", element:<AboutUs /> },
   {path:"/appointment", element:<ContactUs /> },
   {path:"/appointment-form", element:<AppointmentForm /> }

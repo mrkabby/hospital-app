@@ -1,10 +1,10 @@
 import React from "react";
-import emailIcon from "../assets/images/icons8-email-48.png"; // Replace with the actual path to your email icon
-import locationIcon from "../assets/images/icons8-location-50.png"; // Replace with the actual path to your location icon
+import emailIcon from "../assets/images/email_White-removebg-preview.png"; // Replace with the actual path to your email icon
+import locationIcon from "../assets/images/location_icon-removebg-preview.png"; // Replace with the actual path to your location icon
 
-import facebookIcon from "../assets/images/icons8-facebook.svg"; // Replace with the actual path to your Facebook icon
-import twitterIcon from "../assets/images/icons8-twitterx.svg"; // Replace with the actual path to your Twitter icon
-import instagramIcon from "../assets/images/icons8-instagram.svg"; // Replace with the actual path to your Instagram icon
+import facebookIcon from "../assets/images/Facebook-White-Logo.png"; // Replace with the actual path to your Facebook icon
+import twitterIcon from "../assets/images/Twitter-X-White-Logo-PNG-removebg-preview.png"; // Replace with the actual path to your Twitter icon
+import instagramIcon from "../assets/images/ig-logo-white-instagram-new-logo-white-11562871531teqfqtfzpn-removebg-preview.png"; // Replace with the actual path to your Instagram icon
 import { Link, useNavigate } from "react-router-dom";
 
 const Footer = () => {

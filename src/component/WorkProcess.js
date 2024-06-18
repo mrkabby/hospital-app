@@ -26,7 +26,7 @@ const workProcessSteps = [
 
 const WorkProcess = () => {
   return (
-    <div className="py-16 bg-teal-50 dark:bg-zinc-900">
+    <div className="py-16 bg-teal-50 dark:bg-zinc-900 px-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h3 className="text-teal-500 uppercase tracking-wide font-semibold">
           Our Work Process

@@ -28,21 +28,40 @@ const AppointmentForm = () => {
       ...formData,
     };
 
+    // Send email to the hospital
     emailjs
       .send(
         "YOUR_SERVICE_ID", // replace with your EmailJS service ID
-        "YOUR_TEMPLATE_ID", // replace with your EmailJS template ID
+        "YOUR_HOSPITAL_TEMPLATE_ID", // replace with your EmailJS hospital template ID
         templateParams,
         "YOUR_USER_ID" // replace with your EmailJS user ID
       )
       .then(
         (response) => {
-          console.log("SUCCESS!", response.status, response.text);
-          alert("Your appointment request has been sent successfully!");
+          console.log("Hospital Email SUCCESS!", response.status, response.text);
+
+          // Send email to the user
+          emailjs
+            .send(
+              "YOUR_SERVICE_ID", // replace with your EmailJS service ID
+              "YOUR_USER_TEMPLATE_ID", // replace with your EmailJS user template ID
+              templateParams,
+              "YOUR_USER_ID" // replace with your EmailJS user ID
+            )
+            .then(
+              (response) => {
+                console.log("User Email SUCCESS!", response.status, response.text);
+                alert("Your appointment request has been sent successfully!");
+              },
+              (error) => {
+                console.error("User Email FAILED...", error);
+                alert("Failed to send the appointment request to the user. Please try again.");
+              }
+            );
         },
         (error) => {
-          console.error("FAILED...", error);
-          alert("Failed to send the appointment request. Please try again.");
+          console.error("Hospital Email FAILED...", error);
+          alert("Failed to send the appointment request to the hospital. Please try again.");
         }
       );
   };
