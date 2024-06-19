@@ -26,7 +26,7 @@ const Services = () => {
   return (
     <>
     <NavBar />
-    <div className="max-w-7xl mx-auto px-4 py-12 ">
+    <div className="max-w-7xl mx-auto px-4 py-12 mt-20 ">
       <h2 className="text-3xl font-bold text-center mb-8">Find Out More About Our Services</h2>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {services.map((service, index) => (

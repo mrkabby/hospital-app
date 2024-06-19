@@ -10,7 +10,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="flex flex-wrap items-center justify-between  bg-[#274D7C] px-10">
+    <nav className="flex flex-wrap items-center justify-between bg-[#a6ecf9] px-4 fixed w-full top-0 z-50 ">
       <div className="h-24 w-24">
         <img src={logo} alt="Logo" className="h-full w-full" />
       </div>
@@ -32,24 +32,23 @@ const NavBar = () => {
           />
         </button>
       </div>
-      <div className={`${isMenuOpen ? 'block' : 'hidden'} w-full md:w-auto md:flex text-right text-bold mt-5 mx-8 md:mt-0 md:border-none text-white`}>
-       <Link to ={"/home"}>
-        <div className="block md:inline-block hover:text-teal-500 px-3 py-3 md:border-none">Home</div>
+      <div className={`${isMenuOpen ? 'block' : 'hidden'} w-full md:w-auto md:flex text-right text-bold  mx-8 md:mt-0 md:border-none text-black`}>
+        <Link to="/home">
+          <div className="block md:inline-block hover:text-teal-500 px-3 py-3 md:border-none">Home</div>
         </Link>
-        <Link to={"/services"}>
-        <div className="block md:inline-block hover:text-teal-500 px-3 py-3 md:border-none">Services</div>
+        <Link to="/services">
+          <div className="block md:inline-block hover:text-teal-500 px-3 py-3 md:border-none">Services</div>
         </Link>
-        <Link to={"/aboutus"}>
-        <div className="block md:inline-block hover:text-teal-500 px-3 py-3 md:border-none">About Us</div>
+        <Link to="/aboutus">
+          <div className="block md:inline-block hover:text-teal-500 px-3 py-3 md:border-none">About Us</div>
         </Link>
-        <Link to={"/gallery"}>
-        <div className="block md:inline-block hover:text-teal-500 px-3 py-3 md:border-none">Gallery</div>
+        <Link to="/gallery">
+          <div className="block md:inline-block hover:text-teal-500 px-3 py-3 md:border-none">Gallery</div>
         </Link>
-        <Link to={"/visitus"}>
-        <div className="block md:inline-block hover:text-teal-500 px-3 py-3 md:border-none">Visit Us</div>
+        <Link to="/visitus">
+          <div className="block md:inline-block hover:text-teal-500 px-3 py-3 md:border-none">Visit Us</div>
         </Link>
       </div>
-
       <div className="hidden md:flex md:w-auto px-2 py-2 md:rounded">
         <a href="tel:+233535196841">
           <div className="flex justify-end">

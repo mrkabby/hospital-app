@@ -39,7 +39,7 @@ const AllFacilities = () => {
         <div className="bg-teal-50 dark:bg-zinc-900 p-8 ">
           <div className="max-w-7xl mx-auto">
             <div className="mb-8">
-              <h2 className="text-teal-500 font-semibold uppercase tracking-wide text-center ">All Facilities</h2>
+              <h2 className="text-teal-500 font-semibold uppercase tracking-wide text-center mt-20 ">All Facilities</h2>
               <h1 className="text-4xl font-bold text-zinc-900 dark:text-zinc-100 mt-2 text-center">Facilities That We Provide</h1>
               <p className="mt-4 text-zinc-600 dark:text-zinc-300">We pride ourselves on our comprehensive array of modern facilities designed to meet all your healthcare needs. From state-of-the-art operating rooms and intensive care units to specialized departments such as radiology and maternity wards, we provide a wide range of services to ensure the highest standard of care. Our outpatient department offers convenient access to medical consultations and diagnostic tests, while our physical therapy department focuses on rehabilitation and improving mobility. With a commitment to privacy and security, our online services further enhance accessibility, allowing you to receive quality healthcare from the comfort of your home. Trust us to provide personalized care in a safe and secure environment.</p>
              

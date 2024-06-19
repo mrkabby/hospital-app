@@ -7,7 +7,7 @@ const VisitUs = () => {
     <>
     <NavBar />
     <section className="bg-teal-50">
-      <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:py-20 lg:px-8">
+      <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:py-20 lg:px-8 mt-20">
         <div className="max-w-2xl lg:max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-extrabold text-gray-900" id="contactUs">Visit Our Location</h2>
           <p className="mt-3 text-lg text-[#19B0A1]">Let us serve you the best</p>

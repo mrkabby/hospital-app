@@ -10,7 +10,7 @@ import { Link, useNavigate } from "react-router-dom";
 const Footer = () => {
   const navigate = useNavigate();
   return (
-    <div className="bg-[#274D7C] text-white py-8 px-4">
+    <div className="bg-[#274D7C] text-white py-10 px-10 mt-32">
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         <div>
           <h2 className="text-2xl font-bold mb-4">3 Angels Medical Center</h2>
