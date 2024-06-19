@@ -69,7 +69,7 @@ const AppointmentForm = () => {
   return (
     <>
       <NavBar />
-      <div className="p-6 bg-white dark:bg-zinc-900 rounded-lg shadow-lg max-w-3xl mx-auto my-10">
+      <div className="p-6 bg-white dark:bg-zinc-900 rounded-lg shadow-lg max-w-3xl mx-auto my-32">
         <h2 className="text-2xl font-bold text-teal-600 mb-4 text-center">Appointment Form</h2>
         <p className="text-zinc-700 dark:text-zinc-300 mb-8">
           To schedule an appointment, please fill out the information below.
