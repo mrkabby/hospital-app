@@ -19,7 +19,7 @@ const VisitUs = () => {
                 <div className="border-t border-gray-200 px-6 py-4 text-center">
                   <h3 className="text-lg font-bold text-gray-900">Contact</h3>
                   <p className="mt-1 font-bold text-gray-600">
-                    <a href="tel:+233">Phone: 0597466001/ 0535785962</a>
+                    <a href="tel:+233">Phone: 0535196841/ 0535196842</a>
                   </p>
                   <div className="flex justify-center mt-2">
                     <a className="flex m-1" href="tel:+233597466001">
