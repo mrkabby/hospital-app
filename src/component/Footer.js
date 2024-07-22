@@ -92,7 +92,7 @@ const Footer = () => {
           <a href="#">
             <img src={twitterIcon} alt="twitter" className="w-6 h-6" />
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/3angelsmedicalcenter?igsh=ZHVkcnM1YngxdWFw">
             <img src={instagramIcon} alt="instagram" className="w-6 h-6" />
           </a>
         </div>
