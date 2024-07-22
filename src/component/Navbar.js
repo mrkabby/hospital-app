@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from "../assets/images/3_angels_suit_page-0001-removebg-preview.png";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,11 +8,12 @@ const NavBar = () => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+  const navigate = useNavigate();
 
   return (
     <nav className="flex flex-wrap items-center justify-between bg-[#a6ecf9] px-4 fixed w-full top-0 z-50 ">
       <div className="h-24 w-24">
-        <img src={logo} alt="Logo" className="h-full w-full" />
+        <img src={logo} alt="Logo" className="h-full w-full cursor-pointer"onClick={() => navigate("/home")} />
       </div>
       <div className="flex md:hidden mx-8">
         <button id="hamburger" onClick={toggleMenu}>

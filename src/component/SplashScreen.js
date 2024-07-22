@@ -30,7 +30,7 @@ const SplashScreen = () => {
               showLogo ? "scale-100" : "scale-50"
             }`}
           />
-          <p>YOUR TOTAL IS OUR PRIORITY!</p>
+          <p>YOUR TOTAL HEALTH IS OUR PRIORITY!</p>
         </div>
       )}
     </div>
